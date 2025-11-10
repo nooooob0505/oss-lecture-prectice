@@ -10,7 +10,7 @@ int main (void){
 	int res=plus(a,b);
 	printf("%d hello world",res);
 	printf("how do this");
-
+	print(res+a-b);
 	return 0;
 
 }
