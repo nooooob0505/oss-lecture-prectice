@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int plus(int a, int b);
-int main (void)
-	int a,b;
+int main (void){
+        int a,b;
         scanf("%d %d",&a,&b);
         printf("%d %d\n",a,b);
         int res=plus(a,b);
