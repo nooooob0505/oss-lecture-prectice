@@ -1,8 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int plus(int a,int b){
-	int p=a+b;
-	return p;
+int plus(int a, int b);
 int main (void){
 	int a,b;
 	scanf("%d %d",&a,&b);
@@ -10,7 +8,12 @@ int main (void){
 	int res=plus(a,b);
 	printf("%d hello world",res);
 	printf("how do this");
-	print(res+a-b);
-	return 0;
+	printf("hello world");
 
+	return 0;
+}
+int plus(int a, int b){
+	res=a+b;
+	printf("loading...");
+	printf("done!");
 }
