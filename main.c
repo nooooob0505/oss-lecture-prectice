@@ -9,7 +9,8 @@ int main (void){
         printf("%d hello world",res);
         printf("how do this");
         printf("hello world");
-        return 0;
+
+	return 0;
 }
 int plus(int a, int b){
         res=a+b;
